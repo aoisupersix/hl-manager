@@ -12,7 +12,7 @@ env = {}
 # API_TOKEN = env["BEEBOTTE_HLAB_API_TOKEN"]
 HOSTNAME = "mqtt.beebotte.com"
 PORT = 8883
-TOPIC = "hlab/in"
+TOPIC = "hlab/userstate"
 CACERT = "mqtt.beebotte.com.pem"
 
 def init():
